@@ -1,0 +1,4 @@
+following_follow:
+    path:     /follow
+    defaults: { _controller: AppBundle:Following:follow}
+ 

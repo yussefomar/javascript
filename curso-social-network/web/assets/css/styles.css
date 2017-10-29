@@ -1,0 +1,53 @@
+/*generales*/
+body{
+    background:#eee;
+}
+/*registro*/
+.box-form,.box-default{
+    background:white;
+    margin:0px auto;/*para que se centre en la pantalla*/
+    border:1px solid #ccc;
+    padding:20px;
+    float:none;
+    padding-top:0px;
+        
+}
+/*header*/
+
+.navbar-collapse .avatar{
+    background: white;
+    border-radius: 500px;
+    width:30px;
+    height:30px;
+    overflow:hidden ;
+    float:left;
+    margin-top:-5px;
+    margin-left: 12px;
+}
+.navbar-collapse .avatar img{
+    height: 100%;
+    text-align: center;
+}
+.box-form-input{
+    margin-bottom:10px; 
+}
+
+/*GENTE*/
+
+.user-item .avatar{
+    background: #eee;
+    border-radius: 550px;
+    width:75px ;
+    height: 75px;
+    overflow:hidden;/*para que lo que salga del la etiqueta avatar se oculte*/
+    float:left;
+}
+
+.user-item .avatar img{
+    height:100%;/*para que oucpe todo el div del avatar*/
+    text-align: center;/*para centrar la imagen*/
+}
+.user-item .user-item-content{
+    margin-left: 85px;
+    padding: 10px;
+}
